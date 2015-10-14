@@ -1,0 +1,27 @@
+PODS:
+  - AFNetworking (1.1.0)
+  - Stripe (4.0.3):
+    - Stripe/Checkout (= 4.0.3)
+    - Stripe/Core (= 4.0.3)
+  - Stripe/Checkout (4.0.3):
+    - Stripe/Core
+  - Stripe/Core (4.0.3)
+
+DEPENDENCIES:
+  - AFNetworking (~> 1.1.0)
+  - Stripe (from `https://github.com/stripe/stripe-ios.git`)
+
+EXTERNAL SOURCES:
+  Stripe:
+    :git: https://github.com/stripe/stripe-ios.git
+
+CHECKOUT OPTIONS:
+  Stripe:
+    :commit: 5995c2e14013264b8d3a806a9abd4d0c5ec5ffcf
+    :git: https://github.com/stripe/stripe-ios.git
+
+SPEC CHECKSUMS:
+  AFNetworking: e6427e782b25a2289d909960df8ef41358b3277c
+  Stripe: 43a4307dc789483a61668d187c4a917d1348b0b6
+
+COCOAPODS: 0.37.2
